@@ -16,6 +16,9 @@ encoding1 = face_recognition.face_encodings(image1)[0]
 image2 = face_recognition.load_image_file("Omar.jpg")
 encoding2 = face_recognition.face_encodings(image2)[0]
 
+# image3 = face_recognition.load_image_file("tamjid.jpg")
+# encoding3 = face_recognition.face_encodings(image3)[0]
+
 
 image3 = face_recognition.load_image_file("প্রকৌশলী মোহাম্মদ আলাউদ্দিন.jpg")
 encoding3 = face_recognition.face_encodings(image3)[0]
@@ -23,6 +26,49 @@ encoding3 = face_recognition.face_encodings(image3)[0]
 
 image4 = face_recognition.load_image_file("তানভীর আব্বাসী.jpg")
 encoding4 = face_recognition.face_encodings(image4)[0]
+
+
+# image6 = face_recognition.load_image_file("সোহেল মিয়া.jpg")
+# encoding6 = face_recognition.face_encodings(image6)[0]
+
+
+
+# image7 = face_recognition.load_image_file("আল মুবিন.jpg")
+# encoding7 = face_recognition.face_encodings(image7)[0]
+
+
+
+# image8 = face_recognition.load_image_file("মোহাম্মদ বিল্লাল হোসেন.jpg")
+# encoding8 = face_recognition.face_encodings(image8)[0]
+
+
+
+# image9 = face_recognition.load_image_file("সেবুল আহমদ.jpg")
+# encoding9 = face_recognition.face_encodings(image9)[0]
+
+
+# image10 = face_recognition.load_image_file("মাহবুব আলম শাকিল.jpg")
+# encoding10 = face_recognition.face_encodings(image10)[0]
+
+
+
+# image11 = face_recognition.load_image_file("মো.শিপন.jpg")
+# encoding11 = face_recognition.face_encodings(image11)[0]
+
+
+
+# image12 = face_recognition.load_image_file("মেহেদী হাসান.jpg")
+# encoding12 = face_recognition.face_encodings(image12)[0]
+
+
+
+# image13 = face_recognition.load_image_file("সোহেল মিয়া.jpg")
+# encoding13 = face_recognition.face_encodings(image13)[0]
+
+
+
+# image14 = face_recognition.load_image_file("সোহেল মিয়া.jpg")
+# encoding14 = face_recognition.face_encodings(image14)[0]
 
 
 
