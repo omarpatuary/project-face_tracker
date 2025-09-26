@@ -16,16 +16,17 @@ encoding1 = face_recognition.face_encodings(image1)[0]
 image2 = face_recognition.load_image_file("Omar.jpg")
 encoding2 = face_recognition.face_encodings(image2)[0]
 
-# image3 = face_recognition.load_image_file("tamjid.jpg")
-# encoding3 = face_recognition.face_encodings(image3)[0]
 
-
-image3 = face_recognition.load_image_file("প্রকৌশলী মোহাম্মদ আলাউদ্দিন.jpg")
+image3 = face_recognition.load_image_file("tamjid.jpg")
 encoding3 = face_recognition.face_encodings(image3)[0]
 
 
-image4 = face_recognition.load_image_file("তানভীর আব্বাসী.jpg")
+image4 = face_recognition.load_image_file("প্রকৌশলী মোহাম্মদ আলাউদ্দিন.jpg")
 encoding4 = face_recognition.face_encodings(image4)[0]
+
+
+image5 = face_recognition.load_image_file("মোহাম্মদ ইসরাইল হোসেন.jpg")
+encoding5 = face_recognition.face_encodings(image5)[0]
 
 
 # image6 = face_recognition.load_image_file("সোহেল মিয়া.jpg")
@@ -73,7 +74,7 @@ encoding4 = face_recognition.face_encodings(image4)[0]
 
 
 known_faces = [encoding1, encoding2, encoding3, encoding4]
-known_names = ["Hasan", "Omar", "Alauddin Sir", "Tanvir Sir"]
+known_names = ["Hasan", "Omar", "Tamjid", "মোহাম্মদ আলাউদ্দিন স্যার", "মোহাম্মদ ইসরাইল হোসেন স্যার"]
 
 # ------------------------------
 # ক্যামেরা সেটআপ
